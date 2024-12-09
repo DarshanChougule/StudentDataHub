@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>NewServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>datastore</servlet-name>
+        <servlet-class>datastore</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>decision</servlet-name>
+        <servlet-class>decision</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deletedata</servlet-name>
+        <servlet-class>deletedata</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>datastore</servlet-name>
+        <url-pattern>/datastore</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>decision</servlet-name>
+        <url-pattern>/decision</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deletedata</servlet-name>
+        <url-pattern>/deletedata</url-pattern>
+    </servlet-mapping>
+</web-app>
