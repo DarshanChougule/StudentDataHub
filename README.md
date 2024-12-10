@@ -1,5 +1,4 @@
 # StudentDataHub
-# StudentDataHub
 
 StudentDataHub is a web-based application for managing student academic data using **Java Servlets**, **JSP**, and **HTML** with database integration. It allows users to perform CRUD (Create, Read, Update, Delete) operations on student data effectively.
 
